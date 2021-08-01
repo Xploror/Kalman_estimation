@@ -156,7 +156,7 @@ void Error()
 
   if(abs(error)<6)
     {
-    toterr += error;
+    toterr += error*timespent;
     }
    else
    {toterr = 0;}
